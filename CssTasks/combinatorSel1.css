@@ -1,0 +1,17 @@
+.biryani >li{
+
+color:orange
+}
+/* .biryani > li:last-child {
+  color: cyan;
+} */
+.jet >li{
+
+color:orange
+}
+.lassi >li{
+    color: green;
+}
+.lassi {
+  color: brown;
+}

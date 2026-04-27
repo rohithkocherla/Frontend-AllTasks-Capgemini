@@ -1,0 +1,38 @@
+
+main{
+    height: 80vh;
+    width: 70vw;
+    border: 2px solid black;
+    margin: 50px auto;
+    display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+   align-content: center;
+background-color: brown;
+  
+}
+.box{
+    height: 25%;
+    width: 25%;
+  border: 1px solid blue;
+    background-color: aquamarine;
+    justify-items: center;
+    text-align: center;
+    display: grid;
+    margin:auto;
+
+
+    
+}
+
+@media screen and(min-width: 300px) and (max-width: 500px){
+    main{
+        display: flex;
+         flex-direction: column;
+         background-color: yellow;
+    }
+    .box{
+        width:60%;
+        height: 20%;
+    }
+}

@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 10;
+    color:wheat;
+
+}
+
+#navbar{
+    height: 60px;
+    background-color: black;
+}
+
+button{
+    background-color: orangered;
+}
+
+#logo{
+    color: orangered;
+    font-size: 25px;
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;}

@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial;
+}
+
+body{
+    background:#070b2c;
+    color:white;
+} 
+
+header{
+    display:flex;
+    justify-content:space-between;
+    padding:20px 40px ;
+    
+}
+ 
+header i{
+    color:orange;
+   
+}
+
+.units{
+    background:#1c1f4a;
+    border:none;
+    color:white;
+    padding:8px 15px;
+    border-radius:10px;
+}
+
+
+.search{
+    text-align:center;
+}
+
+.search h1{
+    margin:20px;
+    
+}
+
+.search-box{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+}
+
+.search input{
+    padding:10px;
+    height: auto;
+    width:300px;
+    border-radius:10px;
+    border:none;
+}
+
+.search button{
+    padding:10px 20px;
+    border-radius:10px;
+    border:none;
+    background:#3b5bdb;
+    color:white;
+}
+
+.main{
+    width:85%;
+    margin:40px auto;
+    display:flex;
+    gap:30px;
+}
+
+.left{
+    flex:2
+}
+
+
+.big-card{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:linear-gradient(45deg,#4c6ef5,#7048e8);
+    padding:30px;
+    border-radius:20px;
+}
+
+.big-card h1{
+    font-size:60px;
+}
+
+.stats{
+    display:flex;
+    gap:15px;
+    margin:20px 0;
+}
+
+.box{
+    flex: 1;
+
+    background:#1c1f4a;
+    padding:20px;
+    border-radius:15px;
+    text-align:center;
+}
+
+.title{
+    margin:20px 0 10px;
+}
+
+
+.daily{
+    display:flex;
+    gap:10px;
+}
+
+.day{
+    background:#1c1f4a;
+    padding:15px;
+    border-radius:10px;
+    text-align:center;
+    flex:1;
+}
+
+
+.right{
+    flex:1;
+    background:#1c1f4a;
+    padding:20px;
+    border-radius:20px;
+}
+
+.hour{
+    background:#2a2d5c;
+    margin:10px 0;
+    padding:10px;
+    border-radius:10px;
+}  

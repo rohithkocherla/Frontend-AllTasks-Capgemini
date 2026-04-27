@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 80vh;
+    width: 80vw;
+    /* border: 2px solid black; */
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+section{
+    /* border: 2px solid gold; */
+    background-color: brown;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.box1{
+   /* grid-column: 1/2;
+   grid-row: 1/4; */
+
+   grid-area: 1/1/4/2;
+}
+
+.box2{
+    grid-area: 1/2/2/4;
+}
+.box6{
+    grid-area: 2/4/4/5;
+}
+

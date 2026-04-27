@@ -1,0 +1,23 @@
+section{
+    border: 8px solid blueviolet;
+    height: 400px;
+    width: 400px;
+    padding: 20px;
+    margin-bottom: 80px;
+    border-radius: 30px;
+    border-right: 100px;
+
+
+}
+p{
+    border: 5px solid red;
+    height: 300px;
+    width: 350px;
+    padding: 20px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 20px;
+
+}
+div{
+    border-radius: 50%;
+}
